@@ -8,7 +8,7 @@ MONGO_URI = os.getenv("MONGO_URI")
 client = MongoClient(MONGO_URI)
 
 # use database from URI
-db = client["SageCoachDB"]
+db = client["fitnexus"]
 
 users_collection = db["users"]
 otp_collection = db["otps"]
