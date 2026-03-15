@@ -1,8 +1,8 @@
 flask
 flask-cors
-opencv-python-headless
-mediapipe==0.10.9
-numpy
-groq
 pymongo
 python-dotenv
+numpy
+opencv-python-headless
+mediapipe==0.10.9
+gunicorn
